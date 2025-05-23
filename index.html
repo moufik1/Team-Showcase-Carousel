@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Team Showcase</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Our Amazing Team</h1>
+        
+        <div class="carousel">
+            <button class="nav-btn prev">←</button>
+            
+            <div class="slides">
+                <div class="slide" data-index="0">
+                    <div class="member-card">
+                        <div class="member-image">
+                            <img src="https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?q=80&w=3687&auto=format&fit=crop" alt="Team Member 1">
+                        </div>
+                        <div class="member-details">
+                            <h3>Emily Kim</h3>
+                            <p>Founder</p>
+                        </div>
+                    </div>
+                </div>
+				<!-- All slides have the same data-index="0" -->
+				
+                <div class="slide" data-index="0">
+                    <div class="member-card">
+                        <div class="member-image">
+                            <img src="Abdo.jpg" alt="Team Member 1">
+                        </div>
+                        <div class="member-details">
+                            <h3>Abdo</h3>
+                            <p>HR</p>
+                        </div>
+                    </div>
+                </div>
+				<div class="slide" data-index="0">
+                    <div class="member-card">
+                        <div class="member-image">
+                            <img src="Fati.jpg" alt="Team Member 1">
+                        </div>
+                        <div class="member-details">
+                            <h3>Emily Kim</h3>
+                            <p>Founder</p>
+                        </div>
+                    </div>
+                </div>
+				<div class="slide" data-index="0">
+                    <div class="member-card">
+                        <div class="member-image">
+                            <img src="simo.jpg" alt="Team Member 1">
+                        </div>
+                        <div class="member-details">
+                            <h3>Emily Kim</h3>
+                            <p>Founder</p>
+                        </div>
+                    </div>
+                </div>
+			</div>
+            
+            <button class="nav-btn next">→</button>
+        </div>
+        
+        <div class="progress-bar">
+            <div class="progress-dot active" data-index="0"></div>
+            <div class="progress-dot" data-index="1"></div>
+            <div class="progress-dot" data-index="2"></div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
